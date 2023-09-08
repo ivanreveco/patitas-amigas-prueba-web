@@ -1,0 +1,262 @@
+body{background-color: antiquewhite;}
+.logo{
+    position:relative;
+    display: flex;
+    float: left;
+    margin-left: 0;
+    left: 0;
+    margin: 10px;
+    animation:flip;
+    animation-duration: 2s;
+}
+.btn-regis2{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: orange;
+    border-color: orange;
+  }
+.regs{
+  
+    position: relative;
+    margin-top: 30%;
+    left: 100px;
+}
+.regiuser{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-left: 37%;
+    margin-bottom: 20px;
+}
+.btnreg{
+    background: orange;
+    color: #fff;
+}
+.btn-2{
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+}
+
+.btn-regis{
+      margin: 0 auto;
+      
+      color: white;
+      background-color: orange;
+      border-color: orange;
+     
+      
+    
+  }
+.btn-regis:hover{
+    animation: heartBeat;
+    animation-duration: 2s;
+  } 
+#cm{
+  background-color: orange;
+ }
+#cm:hover{
+    animation: bounce;
+    animation-duration: 2s;
+  }
+.navbar{
+  margin-top: 1%;
+}
+.objnav{
+  justify-content: center;
+  align-items: center;
+
+}
+.Buscador{
+  margin-left: 5%;
+}
+.containerletras{
+  
+  color: coral;
+}
+#containerimg{
+display: block;
+
+float: left;
+}
+.bvn{
+  color: coral;
+  font-size: 50px;
+
+}
+.esp{
+  color: orange;
+  font-size: 50px;
+}
+.img{
+  float: left;
+}
+#mainCanvas{
+  background-color: aliceblue;
+}
+#containerCuerpo{
+ 
+ 
+  margin-top: 20px;
+  left: 10px;
+}
+
+#containercuerpoindex{
+  margin-top: 1%;
+ 
+}
+#containercuerpoinicio{
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-top: 1%;
+
+}
+#containerforminico{
+  display: block;
+  text-align:center ;
+  background-color: rgba(255, 127, 80, 0.5);
+  border-radius: 5%;
+  font-size: 100%;
+  height: 100%;
+  width: 50%;
+  
+  
+}
+.card-body1{
+  text-align: center;
+  background-color: rgba(255, 127, 80, 0.8);
+
+
+ 
+}
+
+.pat{
+  float: right;
+  animation:bounceInRight;
+  animation-duration: 1s;
+
+}
+.pat-inicio{
+  margin-top: 25px;
+  animation:bounceInLeft;
+  animation-duration: 1s;
+}
+#containerimg2{
+  display: flex;
+  float: right;
+  position: relative;
+  
+  }
+#registro-reg{
+  margin-top: 1%;
+  text-align:center ;
+  display: block;
+  text-align:center ;
+  border-radius: 5%;
+  font-size: 100%;
+  height: 100%;
+  width: 50%;
+}
+#contcard{
+  margin-top: 1%;
+}
+.pat3{
+  float: top;
+  animation:bounceInRight;
+  animation-duration: 1s;
+}
+.button{
+  color: white;
+}
+#BANNER{
+  display: block;
+}
+.container-BodyT{
+  margin: 7%;
+}
+.card-body{
+text-align: center;
+background-color: coral;
+width: auto;
+
+}
+#producto{
+  background: transparent;
+  border: transparent;
+}
+.stock{
+text-align: center;
+color:brown;}
+
+footer{
+  height: auto;
+
+}
+.carrito{
+ width: 50px;
+  margin-left:200px ;
+}
+.carrito:hover{
+  animation: infinite;
+  animation-name: tada ;
+  animation-duration: 1s;
+}
+
+#carritocard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.container-cardC{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: transparent;
+  background: transparent;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  
+}
+.card-img-top-carrito {
+  display: block;
+  width: 10%;
+}
+.carritocard{
+  background: transparent;
+  border: transparent;
+}
+/*modelo de un modal*/
+#modal{
+  width: 70%;
+  height: 50%;
+}
+#modal::backdrop{
+  backdrop-filter: blur(5px);
+}
+.modaltext{
+  font-size: auto;
+}
+.modalh1{
+  margin:2.5%;
+}
+.btnmodalcerrar{
+  margin-top:5%;
+}
+.patmodal{
+  width: 15%;
+  margin-top: 10%;
+  animation:bounceInRight;
+  animation-duration: 1s;
+}
+.error{
+  color: red;
+}
+.correcto{
+  color: green;
+  width: 200%;
+}
